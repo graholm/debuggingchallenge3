@@ -20,3 +20,7 @@ setInterval(function() {
     backgroundIsBlue = true;
   }	
 }, 500)
+
+
+$("#blue-blinker").css({border: "1px solid black"});
+//$("#blue-blinker").css({border: "none"});
