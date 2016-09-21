@@ -12,15 +12,15 @@ setInterval(function() {
 
 var borderblinker = false
 setInterval(function() {
-  if (backgroundIsBlue) {
-    $("#blue-blinker").css({background: "white"});
-    backgroundIsBlue = false;
+  if (borderisshowing) {
+    $("#border-blinker").css({background: "white"});
+    backgroundisshowing = false;
   } else {		
-    $("#blue-blinker").css({background: "blue"});	
+    $("#border-blinker").css({background: "blue"});	
     backgroundIsBlue = true;
   }	
 }, 500)
 
 
-$("#blue-blinker").css({border: "1px solid black"});
+$("#border-blinker").css({border: "1px solid black"});
 //$("#blue-blinker").css({border: "none"});
