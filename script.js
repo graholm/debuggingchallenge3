@@ -15,11 +15,12 @@ setInterval(function() {
   if (borderisshowing) {
     $("#border-blinker").css({border: "0px solid black"});
     borderisshowing = false;
+    console.log (borderisshowing)
   } else {		
     $("#border-blinker").css({border: "0.5px solid black"});	
    borderisshowing = true;
   }	
-}, 500)
+}, 1000)
 
 
 $("#border-blinker").css({border: "1px solid black"});
