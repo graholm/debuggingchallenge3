@@ -4,7 +4,7 @@ setInterval(function() {
     $("#blue-blinker").css({background: "white"});
     backgroundIsBlue = false;
   } else {		
-    $("#blue-blinker").css({background: "lightblue"});	
+    $("#blue-blinker").css({background: "skyblue"});	
     backgroundIsBlue = true;
   }	
 }, 500)
@@ -16,7 +16,7 @@ setInterval(function() {
     $("#border-blinker").css({border: "0px solid black"});
     borderisshowing = false;
   } else {		
-    $("#border-blinker").css({border: "3px solid black"});	
+    $("#border-blinker").css({border: "0.5px solid black"});	
    borderisshowing = true;
   }	
 }, 500)
@@ -24,3 +24,14 @@ setInterval(function() {
 
 $("#border-blinker").css({border: "1px solid black"});
 //$("#blue-blinker").css({border: "none"});
+
+var textisshowing = false
+setInterval(function() {
+  if (textisshowing) {
+    $("#border-blinker").css({border: "0px solid black"});
+    textisshowing = false;
+  } else {		
+    $("#border-blinker").css({border: "0.5px solid black"});	
+    borderisshowing = true;
+  }	
+}, 500)
