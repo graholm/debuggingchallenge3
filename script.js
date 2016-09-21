@@ -4,7 +4,7 @@ setInterval(function() {
     $("#blue-blinker").css({background: "white"});
     backgroundIsBlue = false;
   } else {		
-    $("#blue-blinker").css({background: "red"});	
+    $("#blue-blinker").css({background: "blue"});	
     backgroundIsBlue = true;
   }	
 }, 500)
