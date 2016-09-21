@@ -8,3 +8,15 @@ setInterval(function() {
     backgroundIsBlue = true;
   }	
 }, 500)
+
+
+var borderblinker = false
+setInterval(function() {
+  if (backgroundIsBlue) {
+    $("#blue-blinker").css({background: "white"});
+    backgroundIsBlue = false;
+  } else {		
+    $("#blue-blinker").css({background: "blue"});	
+    backgroundIsBlue = true;
+  }	
+}, 500)
