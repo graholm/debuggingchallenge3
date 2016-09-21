@@ -28,10 +28,10 @@ $("#border-blinker").css({border: "1px solid black"});
 var textisshowing = false
 setInterval(function() {
   if (textisshowing) {
-    $("#text-blinker")= hide;
+    $("#text-blinker").fadeOut()
     textisshowing = false;
   } else {		
-    $("#text-blinker").css({text: "1px solid black"});	
+    $("#text-blinker").fadeIn()
     textisshowing = true;
   }	
 }, 500)
