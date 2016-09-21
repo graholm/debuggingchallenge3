@@ -28,7 +28,7 @@ $("#border-blinker").css({border: "1px solid black"});
 var textisshowing = false
 setInterval(function() {
   if (textisshowing) {
-    $("#text-blinker").css({text: "white"});
+    $("#text-blinker")= hide;
     textisshowing = false;
   } else {		
     $("#text-blinker").css({text: "1px solid black"});	
